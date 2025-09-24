@@ -23,4 +23,6 @@ public class Book {
     public String toString() {
         return String.format("%s | %s | %s | %s", id, title, author, issued ? "Issued" : "Available");
     }
+    System.out.println("hello world");
 }
+
